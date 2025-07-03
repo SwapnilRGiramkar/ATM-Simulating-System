@@ -11,3 +11,18 @@ Day-01 Date-02/07/2025
 -We create a three button 1)Login 2)SignUp 3)Clear.
 -Today we built the Clear button with the help of awt interface ActionListener.
 -------------------------------------------------------------------------------------------
+Day-02 Date-03/07/2025
+-Today we start new module i.e. Signup page.
+-In sign up page we add the Application Form heading with random form number.
+-we used Math.random class to generate random values for form.
+-For random we create object "Random r=new Random();"
+-long randnum=r.nextLong()%9000+1000;
+-this gives us small digit values.
+-For positive values we add "Math.abs" method.
+-String number=""+Math.abs(randnum);
+-We put all the fields as signup exa-Name,Address etc.
+-we create separate class for signup.
+-Thats done for day-02.
+-------------------------------------------------------------------------------------------------
+
+

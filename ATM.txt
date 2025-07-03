@@ -1,0 +1,13 @@
+Day-01 Date-02/07/2025
+-Today we start the project name as "ATM Simulating System"
+-Today I'd plan entire Software Structure and MySQL database we used.
+-Today we start the Coding and we start building First MOdule i.e.Login Page.
+-In this Project we used Core java,awt,swing,MySQL and maily we create Standalone Application.
+-When we require some more liabraries we can add as per our Requirements.
+-Today I built the First Module Of our Project Login Page.
+-We create One TextField and One Password Field.
+-TextField i.e. We enter the Card No.
+-Password Field We enter the Password as ATM asking.
+-We create a three button 1)Login 2)SignUp 3)Clear.
+-Today we built the Clear button with the help of awt interface ActionListener.
+-------------------------------------------------------------------------------------------

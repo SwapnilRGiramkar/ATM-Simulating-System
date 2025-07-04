@@ -63,6 +63,29 @@ public class Signup extends JFrame
 		 l5.setBounds(80,190,200,30);
 		 add(l5);
 		 
+		 r1=new JRadioButton("Male");
+		 r1.setFont(new Font("Tahoma",Font.BOLD,14));
+		 r1.setBackground(Color.WHITE);
+		 r1.setBounds(285,190,100,30);
+		 add(r1);
+		 
+		 r2=new JRadioButton("Female");
+		 r2.setFont(new Font("Tahoma",Font.BOLD,14));
+		 r2.setBackground(Color.white);
+		 r2.setBounds(385,190,100,30);
+		 add(r2);
+		 
+		 r3=new JRadioButton("Other");
+		 r3.setFont(new Font("Tahoma",Font.BOLD,14));
+		 r3.setBackground(Color.white);
+		 r3.setBounds(485,190,100,30);
+		 add(r3);
+		 
+		 ButtonGroup bgGender=new ButtonGroup();
+		 bgGender.add(r1);
+		 bgGender.add(r2);
+		 bgGender.add(r3);
+		 
 		 l6=new JLabel(" Date Of Birth: ");
 		 l6.setFont(new Font("Arial",Font.BOLD,22));
 		 l6.setBounds(80,230,200,30);
@@ -82,6 +105,23 @@ public class Signup extends JFrame
 		 l8.setFont(new Font("Arial",Font.BOLD,22));
 		 l8.setBounds(80,310,200,30);
 		 add(l8);
+		 
+		 		 r4=new JRadioButton("Married");
+		 r4.setFont(new Font("Tahoma",Font.BOLD,14));
+		 r4.setBackground(Color.white);
+		 r4.setBounds(300,310,150,30);
+		 add(r4);
+		 
+		 r5=new JRadioButton("Un-Married");
+		 Font f=new Font("Tahoma",Font.BOLD,14);
+		 r5.setFont(f);
+		 r5.setBackground(Color.white);
+		 r5.setBounds(450,310,200,30);
+		 add(r5);
+		 
+		 ButtonGroup bgMarital= new ButtonGroup();
+		 bgMarital.add(r4);
+		 bgMarital.add(r5);
 		 
 		 l9=new JLabel(" Address: ");
 		 l9.setFont(new Font("Arial",Font.BOLD,22));
@@ -138,8 +178,15 @@ public class Signup extends JFrame
 		 l15.setBounds(80,590,200,30);
 		 add(l15);
 		 
+		 b=new JButton("Next");
+		 b.setFont(f);
+		 b.setBackground(Color.BLACK);
+		 b.setForeground(Color.WHITE);
+		 b.setBounds(300, 640, 150, 40);
+		 add(b);
+		 
 		 setVisible(true);
-		 setSize(800,700);
+		 setSize(770,750);
 		 setLocation(400,70);
 		 getContentPane().setBackground(Color.WHITE);
 		 

@@ -24,5 +24,15 @@ Day-02 Date-03/07/2025
 -we create separate class for signup.
 -Thats done for day-02.
 -------------------------------------------------------------------------------------------------
+Day-03 Date-04/07/2025
+-Today I'd work on Sign up page we add Radio buttons Calender and next button etc.
+-Today I'm facing error for adding externel or reference files into Eclipse.
+-Means I'd add files as reference file in Eclipse but when i used this Files they Show Compile time Error.
+-I'm working so on for adding calender but cannot resolve this problem.
+-Then I,m moved on my next task to add Radio buttons for gender and I add three Radio
+  Buttons for gender i.e. Male,Female and Others 
+-Then I add Radio Buttons for Marital Status i.e. Married and Un-Married.
+-Then I'm adding "Next" Button For proceed to Next Form.
+-Thats DOne for the day-03.
 
 

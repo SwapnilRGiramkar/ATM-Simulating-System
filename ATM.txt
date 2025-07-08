@@ -13,7 +13,7 @@ Day-01 Date-02/07/2025
 -------------------------------------------------------------------------------------------
 Day-02 Date-03/07/2025
 -Today we start new module i.e. Signup page.
--In sign up page we add the Application Form heading with random form number.
+-In sign up page we add the Application Form heading with torandom form number.
 -we used Math.random class to generate random values for form.
 -For random we create object "Random r=new Random();"
 -long randnum=r.nextLong()%9000+1000;
@@ -34,5 +34,14 @@ Day-03 Date-04/07/2025
 -Then I add Radio Buttons for Marital Status i.e. Married and Un-Married.
 -Then I'm adding "Next" Button For proceed to Next Form.
 -Thats DOne for the day-03.
-
+---------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------
+Day-04 date-08/07/2025
+-Today we work on workbench in sql.
+-Today we create the tables on workbench.
+-we create a database called signup in workbench.
+-and today we try to fetch the data from java application to workbench.
+-Today we learn a new concept called as JDBC and we try to learn the basics of JDBC.
+-Thats enough for the day-04.
+-------------------------------------------------------------------------------------------
 
